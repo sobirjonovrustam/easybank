@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+    li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a, button {
+    background: none;
+    outline: none;
+    border: none;
+}
